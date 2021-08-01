@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+  <title>Details</title>
+</head>
+
+<!-- wrapeer -->
+<div class="container-fluid info">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="d-flex text-muted">
+          <p class="pt-2">The gift of life, pass it on.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-sm">
+      <div class="container mb-5">
+        <button class="navbar-toggler" type="button" data-toggle="collpase" data-target="#Navbar"><span
+            class="navbar-toggler-icon"></span></button>
+        <a href="#" class="navbar-brand mr-auto "><img src="img/lo.jpeg" width="200" height="75"></a>
+        <div class="collpase navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ml-auto ">
+
+
+            <li class="nav-item "><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item "><a class="nav-link" href="./aboutus.html">About us</a></li>
+            <li class="nav-item "><a class="nav-link" href="./registration.html">Register</a></li>
+            <li class="nav-item "><a class="nav-link" href="./contact.html">Contact us</a></li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </nav>
+
+<body>
+
+
+    <div class="container">
+        <div class="block-31" style="position: relative;">
+         
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-md-7 text-center">
+                    <h2 class="heading">Enter Details</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+  
+
+
+<div class="container">
+  <div class="alert" style="text-align: center; padding: 10px; background: #79c879; color: white;margin-bottom: 10px;display: none;">Data has been sent!! You helped someone </div>
+
+    <form class="well form-horizontal" action=" " method="POST"  id="details_form">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Hospital Details</legend>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Hospital Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"></span>
+  <input  name="Hospital name" placeholder="Hospital Name" id="hosname" class="form-control" required type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Hospital ID</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"></span>
+  <input name="Hospital ID" placeholder="Hospital ID" id="hosid" class="form-control" required type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" id="email" class="form-control" required type="email">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">Contact No. </label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="(845)555-1212" id="phone" class="form-control"  required type="number">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+      
+<div class="form-group">
+  <label class="col-md-4 control-label">Address</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="address" placeholder="Address" id="address" required class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+ 
+<div class="form-group">
+  <label class="col-md-4 control-label">City</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="city" placeholder="city" id="city" class="form-control" required type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+  <label class="col-md-4 control-label">State</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" id="state" class="form-control selectpicker" >
+      <option value=" " >Please select your state</option>
+      <option>Andhra Pradesh</option>
+      <option>Arunachal Pradesh</option>
+      <option>Assam</option>
+      <option>Bihar</option>
+      <option>Chhattisgarh</option>
+      <option>Delhi</option>
+      <option>Goa</option>
+      <option>Gujarat</option>
+      <option>Haryana</option>
+      <option> Himachal Pradesh</option>
+      <option>Jammu and Kashmir</option>
+      <option>Jharkhand</option>
+      <option>Karnataka</option>
+      <option>Kerala</option>
+      <option>Madhya Pradesh</option>
+      <option>Maharashtra</option>
+      <option> Manipur</option>
+      <option>Meghalaya</option>
+      <option>Mizoram</option>
+      <option>Nagaland</option>
+      <option>Odisha</option>
+      <option> Punjab</option>
+      <option>Rajasthan</option>
+      <option>Sikkim</option>
+      <option>Tamil Nadu</option>
+      <option>Telengana</option>
+      <option>Tripura</option>
+      <option>Uttar Pradesh</option>
+      <option>Uttarakhand</option>
+      <option>West Bengal</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Zip Code</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="zip" placeholder="Zip Code" id="zip" class="form-control"  type="text">
+    </div>
+</div>
+</div>
+
+<div class="container">
+
+    <form class="well form-horizontal" action=" " method="POST" id="details_form">
+      <fieldset>
+
+        <!-- Form Name -->
+        <legend>Donor Details</legend>
+
+        <!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">First Name</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="first_name" placeholder="First Name" id="fname" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Last Name</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input name="last_name" placeholder="Last Name" id="lname" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+       
+
+        <!-- Text input adhaar number-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Adhaar card no.</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"></span>
+              <input name="adhaar card no." placeholder="Adhaar card no." id="adhaarno" class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        
+
+
+       
+
+
+
+        <!-- Select Basic GENDER -->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Gender</label>
+          <div class="col-md-4 selectContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="Gender"  id="gender" class="form-control selectpicker">
+                <option value="  " >Please select your gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+
+
+              </select>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Text input age-->
+
+        <div class="form-group">
+            <label class="col-md-4 control-label">Age</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                <input name="age" id="age" placeholder="Age in years" class="form-control" type="number">
+              </div>
+            </div>
+          </div>
+
+        <!-- Select Basic BLOOD GROUP -->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Blood Group</label>
+          <div class="col-md-4 selectContainer">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+              <select name="blood group" class="form-control selectpicker">
+                <option value=" " id="bloodgroup"  >Please select your blood group</option>
+                <option>A+</option>
+                <option>AB+</option>
+                <option>A-</option>
+                <option>AB-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text input  HEIGHT-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Height</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"></span>
+              <input name="height" id="height" required placeholder="In ft." class="form-control" type="number">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Text input  weight-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">Weight</label>
+          <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+              <span class="input-group-addon"></span>
+              <input name="Weight" id="weight" required placeholder="In kg" class="form-control" type="number">
+            </div>
+          </div>
+        </div>
+
+         <!--Death Date-->
+         <div class="form-group">
+            <label class="col-md-4 control-label">Death Date and Time</label>
+            <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="--Date"></i></span>
+                <input name="website" id="tod" placeholder="Date and time" class="form-control" type="datetime-local">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4 control-label">Please select the organs and tissues to be donate: </label>
+            <div class="col-md-4">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="checkbox">All
+                    </label>
+                </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="hea" /> Heart
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="liv" /> Liver
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="lun" /> Lungs
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="kid" /> Kidney
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="pan" /> Pancreas
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="sma" /> Small Intestine
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="cor" /> Corneas
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="ski" /> Skin
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="vei" /> Veins
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="heva" /> Heart valves
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="ten" /> Tendons
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="lig" /> Ligaments
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" id="bon" /> Bones
+                </label>
+              </div>
+            </div>
+            
+          </div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Submit <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</div>
+    </div><!-- /.container -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
